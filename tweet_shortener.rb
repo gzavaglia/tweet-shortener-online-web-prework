@@ -10,6 +10,7 @@ def dictionary
     "you"=> "u",
     "at" => "@",
     "and" => "&",
+    "be" => 'b'
   } # end hash words 
   words
 end #end dictionary
