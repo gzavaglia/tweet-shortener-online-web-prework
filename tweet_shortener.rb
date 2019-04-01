@@ -25,4 +25,5 @@ def word_substituter(tweet)
   end #do
   end #do
   tweet 
+  puts tweet
 end #end word_substitute
