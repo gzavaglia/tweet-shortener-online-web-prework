@@ -45,7 +45,7 @@ def word_substituter(tweet)
   end #do 
     end #do 
     end #while 
-    puts short_tweet.join(" ")
+  short_tweet.join(" ")
   #puts tweetArray
   #puts dicArray
 end #end word_substituter
