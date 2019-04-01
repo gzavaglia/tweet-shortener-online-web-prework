@@ -21,7 +21,8 @@ def word_substituter(tweet)
   valueArray = dictionary.values
   dictionary.each do |key, value|
   tweetArray. each do |word|
-    tweet.sub!(" #{key} ", " #{value} ")    
+    tweet.sub!(" #{key} ", " #{value} ")
+    tweet.sub!(" #{key.capitalize} ", " #{value.capitalize} ")   
   end #do
   end #do
   tweet 
